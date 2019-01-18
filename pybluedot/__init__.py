@@ -17,7 +17,7 @@ class DataParse(object):
         self.fdata =[]
         # self.data = ast.literal(data)
 
-    def __get_status_codes(self):
+    def _get_status_codes(self):
         try:
             status_code = self.data['ErrorCode']
             status = self.data['ErrorMessage']
