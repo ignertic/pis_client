@@ -1,4 +1,4 @@
-gt# Bluedot-sms unofficial API
+# Bluedot-sms unofficial API
 
 This is an unofficial API for [Bluedot-sms](http://bluedotsms.com)
 
