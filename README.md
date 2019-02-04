@@ -24,8 +24,7 @@ def my_callback(result):
     print(client['balance']) #Get Current Balance
 
 #send sms  
-data = {"recipients" :  ["263784442662", "26378123456"], "msg" : "Hey
-i sent a text with pybluedot"}
+data = {"recipients" :  ["263784442662", "26378123456"], "msg" : "Hey i sent a text with pybluedot"}
 
 my_callback(data) #That's All !!!
 
