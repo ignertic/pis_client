@@ -3,7 +3,7 @@ from loguru import logger
 import config
 log =logger
 
-
+# TODO: Code cleanup && document
 class Bluedot(object):
 
 # TODO: THreads threads threads, pools pools pools
@@ -47,7 +47,7 @@ class Bluedot(object):
             return self.balance()
         return item# TEMP: just  user cred
     @classmethod
-    def decoratorfactory(*dec_args, **dec_kwargs):
+    def send(*dec_args, **dec_kwargs):
 
         class Decorator(object):
             def __init__(self, func):
@@ -57,6 +57,7 @@ class Bluedot(object):
             def __call__(self, *args, **kwargs):
                 cls = dec_args[0]
                 print(f"Sender Name using {dec_args[1]} ")
+                config.sender=dec_args[1]
                 pkg = args[0] #string pkg
 
                 # TODO: Send here in thread$
@@ -91,14 +92,3 @@ class Bluedot(object):
 
 
 client = Bluedot(username="lololo", password="9g00isho")
-
-@client.decoratorfactory("Sender")
-def test(l):
-    print(l.status)
-    print(l.response)
-    print("ok HERE ")
-    # print(l['status'])
-
-pkg= {"recipients" : ["2712234234", "26377774324", "44234235621"], "msg" : "Hi guys"}
-test(pkg)
-print(client['balance'])
