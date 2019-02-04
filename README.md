@@ -13,7 +13,7 @@ Usage
 ```python
 
 from pybluedot import Bluedot
-client = Bluedot(username="SuperCode", password="I don't know", sender="PyBluedot")
+client = Bluedot(username="SuperCode", password="I don't know")
 
 
 @client.send("SuperCode") #Your registered Sender Name

@@ -4,8 +4,8 @@ Version: 0.1.0
 Summary: BluedotSMS python wrapper
 Home-page: http://github.com/ignertic/pybluedot
 Author: Gishobert Gwenzi
-Author-email: ilovebugsincode
-License: UNKNOWN
+Author-email: ilovebugsincode@gmail.com
+License: MIT
 Description: # Bluedot-sms unofficial API
         
         This is an unofficial API for [Bluedot-sms](http://bluedotsms.com)
@@ -42,5 +42,4 @@ Description: # Bluedot-sms unofficial API
         
 Platform: UNKNOWN
 Classifier: Programming Language :: Python :: 3
-Classifier: LICENSE :: OSI Approved :: MIT LICENSE
 Classifier: Operating System :: OS Independent
