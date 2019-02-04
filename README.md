@@ -3,7 +3,6 @@
 This is an unofficial API for [Bluedot-sms](http://bluedotsms.com)
 
 Requirements:
-
   Python 3
 
 Installation:
@@ -11,7 +10,8 @@ Installation:
 >  pip install pybluedot
 
 Usage
-```
+```python
+
 from pybluedot import Bluedot
 client = Bluedot(username="SuperCode", password="I don't know", sender="PyBluedot")
 
@@ -20,7 +20,7 @@ client = Bluedot(username="SuperCode", password="I don't know", sender="PyBluedo
 def my_callback(result):
 
     print(result.status) #200
-    print(result.response) #Get response body
+    print(result.response) #Get response body from Bluedot
     print(client['balance']) #Get Current Balance
 
 #send sms  
