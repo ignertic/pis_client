@@ -6,7 +6,7 @@ with open("README.md", 'r') as fh:
 setuptools.setup(
     name="pybluedot",
     author="Gishobert Gwenzi",
-    author_email="ilovebugsincode",
+    author_email="ilovebugsincode@gmail.com",
     version="0.1.0",
     description="BluedotSMS python wrapper",
     long_description=long_description,
