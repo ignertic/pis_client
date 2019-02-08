@@ -1,5 +1,5 @@
 import setuptools
-
+__version__="0.2.0"
 with open("README.md", 'r') as fh:
     long_description = fh.read()
 
@@ -7,7 +7,7 @@ setuptools.setup(
     name="pybluedot",
     author="Gishobert Gwenzi",
     author_email="ilovebugsincode@gmail.com",
-    version="0.1.0",
+    version="0.2.0",
     description="BluedotSMS python wrapper",
     licence="MIT",
     long_description=long_description,

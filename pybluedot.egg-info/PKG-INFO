@@ -1,6 +1,6 @@
 Metadata-Version: 1.1
 Name: pybluedot
-Version: 0.1.0
+Version: 0.2.0
 Summary: BluedotSMS python wrapper
 Home-page: http://github.com/ignertic/pybluedot
 Author: Gishobert Gwenzi
@@ -21,7 +21,7 @@ Description: # Bluedot-sms unofficial API
         ```python
         
         from pybluedot import Bluedot
-        client = Bluedot(username="SuperCode", password="I don't know", sender="PyBluedot")
+        client = Bluedot(username="SuperCode", password="I don't know")
         
         
         @client.send("SuperCode") #Your registered Sender Name

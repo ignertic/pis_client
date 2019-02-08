@@ -1,6 +1,6 @@
 import requests as rs
 from loguru import logger
-import config
+from . import config
 log =logger
 
 # TODO: Code cleanup && document
